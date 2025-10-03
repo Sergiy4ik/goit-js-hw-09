@@ -58,6 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  max-width: 360px;
 }
 
 label {
@@ -67,12 +68,13 @@ label {
   letter-spacing: 0.04em;
   color: #2e2f42;
   max-width: 400px;
+  align-items: flex-start;
 }
 
 input {
   border: 1px solid #808080;
   border-radius: 4px;
-  max-width: 360px;
+  width: 360px;
   height: 40px;
   margin: 8px 0 8px 0;
 }
